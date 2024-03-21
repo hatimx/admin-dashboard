@@ -620,7 +620,8 @@ main table tbody a {
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
+        background: red;
     }
 
     aside {

@@ -16,20 +16,21 @@
     grid-template-columns: 14rem auto;
 }
 
+
+@media screen and (max-width: 1200px) {
+    .container {
+
+        grid-template-columns: 7rem 1fr;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .right .top {
         top: 0;
     }
 
     .container {
-        width: 94%;
+
         grid-template-columns: 1fr;
-    }
-}
-
-
-@media screen and (max-width: 1200px) {
-    .container {
-        width: 94%;
     }
 }

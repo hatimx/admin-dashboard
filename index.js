@@ -17,3 +17,20 @@ themeToggler.addEventListener('click', () => {
     themeToggler.querySelector('span:nth-child(1)').classList.toggle('active');
     themeToggler.querySelector('span:nth-child(2)').classList.toggle('active');
 })
+
+// const links = document.querySelectorAll('.sidebar a');
+
+// // Loop through each link to add click event listener
+// links.forEach(link => {
+//     link.addEventListener('click', function (event) {
+//         event.preventDefault(); // Prevent default link behavior
+
+//         // Remove 'active' class from all links
+//         links.forEach(item => {
+//             item.classList.remove('active');
+//         });
+
+//         // Add 'active' class to the clicked link
+//         this.classList.add('active');
+//     });
+// });

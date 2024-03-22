@@ -1,0 +1,35 @@
+.right .top {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    position: fixed;
+    right: 1rem;
+    top: 3rem;
+}
+
+.container {
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    /* background: red; */
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto;
+}
+
+@media screen and (max-width: 768px) {
+    .right .top {
+        top: 0;
+    }
+
+    .container {
+        width: 94%;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 94%;
+    }
+}

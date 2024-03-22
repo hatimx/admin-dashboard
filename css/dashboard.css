@@ -16,6 +16,9 @@
     grid-template-columns: 14rem auto;
 }
 
+main .recent-orders h2 {
+    margin-bottom: 2.8rem;
+}
 
 @media screen and (max-width: 1200px) {
     .container {

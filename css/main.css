@@ -392,6 +392,10 @@ main .recent-orders table {
     color: var(--text-color);
 }
 
+main .recent-orders table thead tr th {
+    text-transform: uppercase;
+}
+
 main .recent-orders table:hover {
     box-shadow: none;
 }

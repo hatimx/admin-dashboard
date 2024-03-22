@@ -20,6 +20,11 @@ main .recent-orders h2 {
     margin-bottom: 2.8rem;
 }
 
+main .recent-orders table {
+    border-radius: 1rem;
+}
+
+
 @media screen and (max-width: 1200px) {
     .container {
 

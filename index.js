@@ -34,3 +34,17 @@ themeToggler.addEventListener('click', () => {
 //         this.classList.add('active');
 //     });
 // });
+const sidebarLinks = document.querySelectorAll('.sidebar a');
+
+// Loop through each sidebar link to add click event listener
+sidebarLinks.forEach(link => {
+    link.addEventListener('click', function (event) {
+        // Remove 'active' class from all sidebar links
+        sidebarLinks.forEach(item => {
+            item.classList.remove('active');
+        });
+
+        // Add 'active' class to the clicked sidebar link
+        this.classList.add('active');
+    });
+});
